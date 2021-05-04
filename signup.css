@@ -1,0 +1,70 @@
+body {
+    background: -webkit-linear-gradient(bottom, #0c17d2, #78b9ef);
+    background-repeat: no-repeat;
+}
+
+.container {
+    background: #fbfbfb;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 400px;
+    margin: 100px auto 157px auto;
+    width: 451px;
+}
+
+.content {
+    padding: 12px 44px;
+}
+
+.title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text] {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+input[type=email] {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+input[type=password] {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+button[type=submit] {
+    background: #008000;
+    border: solid 0px;
+    border-radius: 5px;
+    color: #FFF;
+    margin: 4px 10px;
+    padding: 15px;
+    width: 145px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background: #003300;
+    color: #FFF;
+    width: 145px;
+    cursor: pointer;
+}
